@@ -19,6 +19,7 @@ class Car{
 }
 
 const uno = new Car('Fiat', 'Preto', 1/14);
-console.log(uno.calcGasto(100, 6.29))
+console.log(uno.calcGasto(700, 6.29))
+
 const ford = new Car('Fiesta', 'Vermelho',1/12);
 console.log(ford.calcGasto(700, 6.29))
